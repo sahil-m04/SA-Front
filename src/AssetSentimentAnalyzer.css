@@ -1,0 +1,147 @@
+.analyzer-container {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  color: #1f2937;
+  padding: 2rem 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 100%;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 2rem;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.input-box {
+  padding: 0.6rem 1rem;
+  background-color: #ffffff;
+  color: #1f2937;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.analyze-button {
+  background-color: #0d9488;
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem 1.6rem;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.analyze-button:hover {
+  background-color: #0f766e;
+}
+
+.error-message {
+  color: #dc2626;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #6b7280;
+  margin-top: 4rem;
+}
+
+.placeholder .icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #0d9488;
+}
+
+.placeholder-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.placeholder-description {
+  margin-top: 0.5rem;
+  max-width: 420px;
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.chart-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.chart-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.articles-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.articles-table thead {
+  background-color: #e5e7eb;
+}
+
+.articles-table th,
+.articles-table td {
+  padding: 0.85rem;
+  text-align: left;
+  border-top: 1px solid #e2e8f0;
+  color: #1f2937;
+}
+
+.articles-table tr:hover {
+  background-color: #f9fafb;
+}
+
+.articles-table a {
+  color: #1e3a8a;
+  text-decoration: underline;
+}
+
+.positive {
+  color: #059669; /* Green */
+  font-weight: 600;
+}
+
+.neutral {
+  color: #d97706; /* Amber */
+  font-weight: 600;
+}
+
+.negative {
+  color: #dc2626; /* Red */
+  font-weight: 600;
+}
